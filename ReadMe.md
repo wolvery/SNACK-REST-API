@@ -9,7 +9,8 @@ You just need to set up the enviromnent and run the app server.
 
 ## API
 
-| VERB | QUERY | EXAMPLE | DESCRIPTION |
-| GET | /CARDS/FIND/:ID | /CARDS/FIND/1 | FIND CARD BY ID |
-| POST | /CARDS/loadbalance/:ID | /CARDS/loadbalance/1 | UPDATES BALANCE'S CARD FOR TODAY |
-| GET | /CARDS/withdraw_and_update/:ID&:AMOUNT | /CARDS/FIND/1&2 | PERFORMS A WITHDRAW IF THE CARD HAS SOME POSITIVE BALANCE |
+| VERB | QUERY                                  | EXAMPLE              | DESCRIPTION                                                  |
+|------|:--------------------------------------:|---------------------:|-------------------------------------------------------------:|
+| GET  | /CARDS/FIND/:ID                        | /CARDS/FIND/1        | FIND CARD BY ID                                              |
+| POST | /CARDS/loadbalance/:ID                 | /CARDS/loadbalance/1 | UPDATES BALANCE'S CARD FOR TODAY                             |
+| GET  | /CARDS/withdraw_and_update/:ID&:AMOUNT | /CARDS/FIND/1&2      | PERFORMS A WITHDRAW IF THE CARD HAS SOME POSITIVE BALANCE    |
